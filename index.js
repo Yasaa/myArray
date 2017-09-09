@@ -6,7 +6,7 @@ A very simple javascript array utility library
 
 */
 
-var myArray = {
+const myArray = {
 	// Declare top level vars
 	toArrayObject: [],
 
@@ -44,17 +44,6 @@ var myArray = {
 
 }
 
-// myArray object instance
-var demo = new myArray();
 
-var demoObj = {
-	"name": "Caleb",
-	"age": 12,
-	"married": false,
-	"nationailty": "Nigerian"
-}
 
-var demoArray = ["Hello javascript", null, 78, true, {}, []];
 
-demo.forEach(testArray);
-demo.toArray(testObj);
